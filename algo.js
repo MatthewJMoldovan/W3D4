@@ -18,11 +18,11 @@ const expected4 = false;
  * @returns {boolean} Whether the given str is a palindrome or not.
  */
 function isPalindrome(str) {
-    pal = true
+    pal = true;
     for(var left = 0; left<str.length/2; left++){
         var right = str.length-1-left;
         if(str[left] != str[right]){
-            pal = false
+            pal = false;
         }
     }
     console.log(pal);
